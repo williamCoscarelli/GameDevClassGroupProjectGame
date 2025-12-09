@@ -1,22 +1,25 @@
 fileFormatVersion: 2
-guid: 5b6421c6fc1e64fc485b68ca3e42e948
+guid: 6a19b794074dc404590e19c3fd75045c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7433726213694934367
-    second: rocks_shadow_0
+      213: -7329444711139856646
+    second: char-sheet-alpha_0
   - first:
-      213: 3280942694374154409
-    second: rocks_shadow_1
+      213: -2089834165826206659
+    second: char-sheet-alpha_1
   - first:
-      213: -4358865153644992245
-    second: rocks_shadow_2
+      213: -3551710840934062492
+    second: char-sheet-alpha_2
   - first:
-      213: 2863568096155335600
-    second: rocks_shadow_3
+      213: -7197146655197159295
+    second: char-sheet-alpha_3
   - first:
-      213: 7680901647574997999
-    second: rocks_shadow_4
+      213: -6062870373011448521
+    second: char-sheet-alpha_4
+  - first:
+      213: 4737040577165075813
+    second: char-sheet-alpha_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,133 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rocks_shadow_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79d0a26b35a4b4517ab40ea97c94b510
-      internalID: 7433726213694934367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rocks_shadow_1
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6980a19a2796f4186bbac1f46b454264
-      internalID: 3280942694374154409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rocks_shadow_2
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 24
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f5541c8c60214c6b8067e875233a9c0
-      internalID: -4358865153644992245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: rocks_shadow_3
+      name: char-sheet-alpha_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 24
-        height: 24
+        width: 45
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66b367d87f3dc4e4a8c6d4c9cb7a4873
-      internalID: 2863568096155335600
+      spriteID: afea4a74ed4984a90800000000000000
+      internalID: -7329444711139856646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rocks_shadow_4
+      name: char-sheet-alpha_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 45
         y: 0
-        width: 24
-        height: 24
+        width: 45
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2602760d16de941ac841e9a2fc4aa74f
-      internalID: 7680901647574997999
+      spriteID: d34447a06ea6ff2e0800000000000000
+      internalID: -2089834165826206659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rocks_shadow_5
+      name: char-sheet-alpha_2
       rect:
         serializedVersion: 2
-        x: 48
+        x: 90
         y: 0
-        width: 24
-        height: 24
+        width: 45
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 935af3d46824641b4b2d9b3ec65036d5
-      internalID: 734395387
+      spriteID: 466a835dec9c5bec0800000000000000
+      internalID: -3551710840934062492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-sheet-alpha_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180259ccf399e1c90800000000000000
+      internalID: -7197146655197159295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-sheet-alpha_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d9969a48b5cdba0800000000000000
+      internalID: -6062870373011448521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-sheet-alpha_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56529889e495db140800000000000000
+      internalID: 4737040577165075813
       vertices: []
       indices: 
       edges: []
@@ -247,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 01cbb78b3a62344bd9f3c704402d1cd8
+    spriteID: 4173576f53a8047d6ac979bbfe8a41e1
     internalID: 0
     vertices: []
     indices: 
@@ -257,14 +260,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":45.0,"y":42.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      rocks_shadow_0: 7433726213694934367
-      rocks_shadow_1: 3280942694374154409
-      rocks_shadow_2: -4358865153644992245
-      rocks_shadow_3: 2863568096155335600
-      rocks_shadow_4: 7680901647574997999
-      rocks_shadow_5: 734395387
+      char-sheet-alpha_0: -7329444711139856646
+      char-sheet-alpha_1: -2089834165826206659
+      char-sheet-alpha_2: -3551710840934062492
+      char-sheet-alpha_3: -7197146655197159295
+      char-sheet-alpha_4: -6062870373011448521
+      char-sheet-alpha_5: 4737040577165075813
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
