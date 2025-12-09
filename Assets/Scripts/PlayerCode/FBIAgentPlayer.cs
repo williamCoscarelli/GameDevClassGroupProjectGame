@@ -1,3 +1,5 @@
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FBIAgentPlayer : MonoBehaviour
@@ -5,9 +7,23 @@ public class FBIAgentPlayer : MonoBehaviour
    
     public SpriteRenderer FBISpriteRenderer;
     public Rigidbody2D FBIAgentPlayerRigidbody2D;
-    public GameObject Bullet;
-    private int NumberOfJumpsLeft = 2;
-    
+    public CurrentGun CurrentGun;
+    public int NumberOfJumpsLeft = 2;
+    private int Health;
+
+    public void LowerHealth(int amount)
+    {
+        Health -= amount;
+    }
+
+    public void Reset()
+    {
+        new Vector2(0, 0);
+        this.transform.position = Vector2.zero;
+        CurrentGun.Reset();
+        Health = 100;
+    }
+
     public void Move(Vector2 direction)
     {
         
@@ -65,9 +81,5 @@ public class FBIAgentPlayer : MonoBehaviour
         }
     }
 
-    public void ShootBulletUp()
-    {
-        Instantiate(Bullet, this.transform.position, Bullet.transform.rotation);
-        // check bullet code for movement 
-    }
+    
 }

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -14,11 +16,14 @@ public class Bullet : MonoBehaviour
     
     void Start()
     {
-        void Awake()
-        {
-            CurrentGun = FindAnyObjectByType<CurrentGun>();
-        }
+        CurrentGun = FindAnyObjectByType<CurrentGun>();
         BulletRigidBody.AddForce(CurrentGun.ReturnDirrectionOfBullet(),ForceMode2D.Impulse);
+        StartCoroutine(KillBullet());
     }
-    
+
+    IEnumerator KillBullet()
+    {
+        yield return new WaitForSeconds(1f);
+        Destroy(gameObject);
+    }
 }

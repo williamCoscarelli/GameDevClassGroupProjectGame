@@ -11,6 +11,7 @@ TagManager:
   - Bullet
   - MiniGunUpgrade
   - CurrentGun
+  - LevelManager
   layers:
   - Default
   - TransparentFX

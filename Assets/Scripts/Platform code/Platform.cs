@@ -8,6 +8,11 @@ public class Platform : MonoBehaviour
     public GameObject DoubleJumpActivator;
     public GameObject Platformthing;
     // Update is called once per frame
+
+    void Start()
+    {
+        FBIAgentPlayer = FindAnyObjectByType<FBIAgentPlayer>();
+    }
     void Update()
     {
         PlayerPlatformInteraction();
