@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class EnemyBombDropper : MonoBehaviour
 {
+    public GameObject bombParticlesPrefab;
     public GameObject bombPrefab;
     public float dropInterval = 3f;
     public float bombLifetime = 3f;
@@ -22,6 +23,12 @@ public class EnemyBombDropper : MonoBehaviour
     private void DropBomb()
     {
         GameObject bomb = Instantiate(bombPrefab, transform.position, Quaternion.identity);
+        if (bombParticlesPrefab != null)
+        {
+            GameObject fx = Instantiate(bombParticlesPrefab, bomb.transform.position, Quaternion.identity);
+            fx.transform.SetParent(bomb.transform); // stick to bomb
+        }
+        
         Collider2D enemyCol = gameObject.GetComponent<Collider2D>();
         Collider2D bombCol = bomb.GetComponent<Collider2D>();       
 
